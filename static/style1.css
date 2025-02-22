@@ -1,0 +1,147 @@
+textarea, input[type="text"], input[type="file"], input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background: #fff;
+}
+
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: black; /* Change background to black */
+    padding: 20px;
+    margin: 0;
+    color: #fff; /* Change text color to white for contrast */
+}
+
+/* Sparkling Background Animation */
+@keyframes sparkle {
+    0% { background-color: rgba(255, 255, 255, 0.1); }
+    50% { background-color: rgba(255, 255, 255, 0.3); }
+    100% { background-color: rgba(255, 255, 255, 0.1); }
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    background: rgba(255, 255, 255, 0.1); /* Add transparency to container */
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    padding: 20px;
+    animation: sparkle 2s infinite; /* Apply sparkle animation */
+}
+
+h1 {
+    font-weight: 700;
+    color: #1e90ff; /* Change heading color to blue */
+    text-align: center;
+    margin-bottom: 20px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+/* Form Styling */
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    resize: vertical;
+    height: 100px;
+    transition: border-color 0.3s, box-shadow 0.3s; /* Added box-shadow transition */
+}
+
+textarea:focus {
+    border-color: #1e90ff;
+    outline: none;
+    box-shadow: 0 0 5px rgba(30, 144, 255, 0.7); /* Add glowing effect */
+}
+
+input[type="file"], input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    transition: border-color 0.3s, box-shadow 0.3s; /* Added box-shadow transition */
+}
+
+
+
+button {
+    background-color: #1e90ff; /* Change button color to blue */
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.1rem;
+    width: 100%;
+    transition: background-color 0.3s, transform 0.2s; /* Added transform transition */
+}
+
+button:hover {
+    background-color: #1c86ee; /* Darker blue on hover */
+    transform: scale(1.05); /* Slightly grow button on hover */
+}
+
+/* Error Alert Styling */
+.alert-danger {
+    background-color: rgba(220, 53, 69, 0.1);
+    border-left: 5px solid #dc3545;
+    color: #dc3545;
+    margin: 10px 0;
+    padding: 10px;
+    display: none;
+}
+
+/* Quiz Display Styling */
+#quiz-section {
+    display: none;
+    margin-top: 20px;
+    max-height: 400px; /* Limit the height of the quiz section */
+    overflow-y: auto; /* Enable vertical scrolling */
+    border: 1px solid #1e90ff; /* Optional: add a border for better visibility */
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#quiz-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.question {
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 576px) {
+    h1 {
+        font-size: 1.8rem;
+    }
+}
+
+/* Existing styles are retained as per the original requirement */
+
+/* Additional styling for the "Download Quiz" button */
+#download-quiz {
+    background-color: #28a745; /* Green color */
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    margin-top: 10px;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+#download-quiz:hover {
+    background-color: #218838; /* Darker green on hover */
+    transform: scale(1.05); /* Slightly grow button on hover */
+}
+

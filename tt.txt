@@ -1,0 +1,8 @@
+
+
+    The Solar System consists of the Sun and all the objects that orbit around it, including eight planets, their moons, dwarf 
+    planets, and countless smaller objects like asteroids and comets. The four inner planets—Mercury, Venus, Earth, and Mars—are
+    rocky, while the four outer planets—Jupiter, Saturn, Uranus, and Neptune—are gas giants. The asteroid belt lies between Mars 
+    and Jupiter, containing numerous asteroids and dwarf planets like Ceres. Beyond Neptune lies the Kuiper Belt, home to Pluto
+    and other icy bodies. The Solar System also includes the Oort Cloud, a distant spherical shell of icy objects believed to 
+    be the source of long-period comets.
