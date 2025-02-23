@@ -7,7 +7,7 @@ from fpdf import FPDF
 
 app = Flask(__name__)
 
-api_key = os.getenv("GEMINI_API_KEY")  # Replace with your Gemini API key
+api_key = os.getenv("GEMINI_API_KEY")
 gemini_url = "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent"
 
 # Ensure the instance path directory exists
